@@ -1,5 +1,5 @@
 import { readFileSync } from 'fs';
-import { Offer } from '../../types/offer.type.js';
+import { Offer } from '../../../types/offer.type.js';
 import { FileReaderInterface } from './file-reader.interface.js';
 
 export default class TSVFileReader implements FileReaderInterface {

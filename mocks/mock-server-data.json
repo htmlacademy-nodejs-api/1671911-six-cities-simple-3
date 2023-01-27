@@ -1,0 +1,94 @@
+{
+  "api": {
+      "title": [
+        "Квартира для бизнесмена",
+        "Романтический отпуск",
+        "For weekend",
+        "Guest house"
+      ],
+      "description": [
+        "Недалеко от центра",
+        "Близко от метро",
+        "Удобно для семьи с детьми"
+      ],
+      "createdDate": [
+        "2022-04-06T08:45:40.283Z",
+        "2020-08-06T08:45:40.283Z",
+        "2021-12-12T08:45:40.283Z"
+      ],
+      "town": [
+        "Брюссель",
+        "Париж",
+        "Амстердам"
+      ],
+      "image": [
+        "room-small.jpg",
+        "studio",
+        "room"
+      ],
+      "offerCategory": [
+        "Premium",
+        "Standard"
+      ],
+      "stars": [
+        "5",
+        "4"
+      ],
+      "type": [
+        "appartment",
+        "room",
+        "studio"
+      ],
+      "roomsQuantity": [
+        "2",
+        "3",
+        "4"
+      ],
+      "guestsQuantity": [
+        "2",
+        "3",
+        "4"
+      ],
+      "price": [
+        "100",
+        "130",
+        "200"
+      ],
+      "comodity": [
+        "Laptopfrendly space",
+        "Breakfast"
+      ],
+      "firstname": [
+        "Max",
+        "Angelina",
+        "Tressy"
+      ],
+      "email": [
+        "max@post.com",
+        "angelina@dior.com",
+        "tressy@bio.com"
+      ],
+      "avatarPath": [
+        "avatar_Max.jpg",
+        "avatar_Angelina.jpg",
+        "avatar_Tressy.jpg"
+      ],
+      "password": [
+        "appertmentMax",
+        "roomAngelina",
+        "studioTressy"
+      ],
+      "roule": [
+        "pro",
+        "standard"
+      ],
+      "latitude":  [
+        "50.846557",
+        "48.85661"
+      ],
+      "longitude": [
+        "4.351697",
+        "2.351499"
+      ]
+  }
+}
