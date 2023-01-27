@@ -25,16 +25,21 @@ export default class OfferGenerator implements OfferGeneratorInterface {
     const price = generateRandomValue(MIN_PRICE, MAX_PRICE).toString();
     const comodity = getRandomItems<string>(this.mockData.comodity).join(';');
     const user = getRandomItem<string>(this.mockData.user);
-    const offerCoordinates = getRandomItem<string>(this.mockData.offerCoordinates);
+    const email = getRandomItem<string>(this.mockData.email);
+    const avatarPath = getRandomItem<string>(this.mockData.avatarPath);
+    const password = getRandomItem<string>(this.mockData.password);
+    const roule = getRandomItem<string>(this.mockData.roule);
+    const latitude = getRandomItem<string>(this.mockData.latitude);
+    const longitude = getRandomItem<string>(this.mockData.longitude);
     const createdDate = dayjs().subtract(generateRandomValue(FIRSR_WEEK_DAY, LAST_WEEK_DAY), 'day').toISOString();
 
     // применяем деструкуризацию
-    const [firstname, email, avatarPath, password, roule] = user.split(' ');
-    const [latitude, longitude] = offerCoordinates.split(' ');
+    //const [firstname, email, avatarPath, password, roule] = user.split(' ');
+    //const [latitude, longitude] = offerCoordinates.split(' ');
 
     return [
       title, description, createdDate, town, image, offerCategory, stars, type, roomsQuantity,guestsQuantity,
-      price, comodity, firstname, email, avatarPath, password, roule, latitude, longitude
+      price, comodity, user, email, avatarPath, password, roule, latitude, longitude
     ].join('\t');
   }
 }

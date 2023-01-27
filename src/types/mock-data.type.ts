@@ -14,5 +14,10 @@ export type MockData = {
   price: number[];
   comodity: string[];
   user: string[];
-  offerCoordinates: string[];
+  email: string[];
+  avatarPath: string[];
+  password: string[];
+  roule: string[];
+  latitude: string[];
+  longitude: string[];
 };
