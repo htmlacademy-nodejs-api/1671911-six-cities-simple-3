@@ -4,12 +4,14 @@
         "Квартира для бизнесмена",
         "Романтический отпуск",
         "For weekend",
-        "Guest house"
+        "Guest house",
+        "Simple and fanny"
       ],
       "description": [
         "Недалеко от центра",
         "Близко от метро",
-        "Удобно для семьи с детьми"
+        "Удобно для семьи с детьми",
+        "All inclusive"
       ],
       "createdDate": [
         "2022-04-06T08:45:40.283Z",
@@ -19,16 +21,20 @@
       "town": [
         "Брюссель",
         "Париж",
-        "Амстердам"
+        "Амстердам",
+        "Roma",
+        "Torino"
       ],
       "image": [
         "room-small.jpg",
         "studio",
-        "room"
+        "room",
+        "suit"
       ],
       "offerCategory": [
         "Premium",
-        "Standard"
+        "Standard",
+        "Super"
       ],
       "stars": [
         "5",
@@ -37,7 +43,8 @@
       "type": [
         "appartment",
         "room",
-        "studio"
+        "studio",
+        "B&B"
       ],
       "roomsQuantity": [
         "2",
@@ -52,21 +59,28 @@
       "price": [
         "100",
         "130",
-        "200"
+        "200",
+        "400"
       ],
       "comodity": [
         "Laptopfrendly space",
-        "Breakfast"
+        "Breakfast",
+        "TV",
+        "jakizi"
       ],
       "user": [
         "Max",
         "Angelina",
-        "Tressy"
+        "Tressy",
+        "Nora",
+        "Piter"
       ],
       "email": [
         "max@post.com",
         "angelina@dior.com",
-        "tressy@bio.com"
+        "tressy@bio.com",
+        "nora@yutto.com",
+        "piter@vas.iu"
       ],
       "avatarPath": [
         "avatar_Max.jpg",

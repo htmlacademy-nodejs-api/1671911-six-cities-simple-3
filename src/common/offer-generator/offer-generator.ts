@@ -1,7 +1,7 @@
 import dayjs from 'dayjs';
-import { generateRandomValue, getRandomItem, getRandomItems } from '../../../utils/random.js';
+import { generateRandomValue, getRandomItem, getRandomItems } from '../../utils/random.js';
 import { OfferGeneratorInterface } from './offer-generator.interface.js';
-import { MockData } from '../../../types/mock-data.type.js';
+import { MockData } from '../../types/mock-data.type.js';
 
 const MIN_PRICE = 500;
 const MAX_PRICE = 2000;
